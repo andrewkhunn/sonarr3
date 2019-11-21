@@ -1,4 +1,4 @@
-FROM hotio/sonarr3
+FROM hotio/sonarr:phantom
 LABEL maintainer="andrewkhunn"
 
 RUN apt-get update && \
